@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import styles from './styles';
+import style from './style';
 
 const Container = ({ children }) => (
-  <View style={styles.container}>
+  <View style={style.container}>
     {children}
   </View>
 );
